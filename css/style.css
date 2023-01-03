@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 25px;
 }
 
 .logo {
@@ -25,9 +26,9 @@ body {
     margin: 14px 0;
 }
 
-.container-input span {
+span {
     color: white;
-    font-size: 22px;
+    font-size: 1.1em;
 }
 
 .slider{
@@ -47,9 +48,11 @@ body {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 40px;
+    margin-left: 45px;
     color: white;
     font-weight: bold;
     font-size: 18px;
+    width: 250px;
 }
 
 .container-password {
@@ -64,7 +67,7 @@ body {
 .title {
     text-align: center;
     color: white;
-    font-size: 28px;
+    font-size: 1.2em;
     margin-top: 24px;
     margin-bottom: 8px;
 }
